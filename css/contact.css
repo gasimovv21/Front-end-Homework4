@@ -1,0 +1,55 @@
+.contact-box{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 750px;
+    border-radius: 4px;
+}
+
+.mail{
+    width: 905px;
+    height: 125px;
+    margin-top: -10px;
+    background-color: #FF7F00;
+    transition: 0.7s;
+}
+
+.mail:hover{
+    background-color: #b95f04;
+}
+
+.mail a{
+    float: left;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+    color: white;
+}
+
+.mail a:hover{
+    color: black;
+}
+
+.phone{
+    width: 905px;
+    height: 125px;
+    background-color: #FF7F00;
+    transition: 0.7s;
+}
+
+.phone:hover{
+    background-color: #b95f04;
+}
+
+.phone a{
+    float: left;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+    color: white;
+}
+
+.phone a:hover{
+    color: black;
+}

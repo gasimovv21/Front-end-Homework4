@@ -1,0 +1,78 @@
+.product-box{
+    background-color: #FF7F00;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 750px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-detail{
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+.pr-img{
+    width: 300px;
+}
+
+.pr-img img{
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 150%;
+}
+
+.pr-info{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.pr-info h3{
+    margin-left: 240px;
+    margin-bottom: 5px;
+}
+
+.pr-info p{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.pr-button .pr-btn{
+    float: left;
+    font-size: 40px;
+    padding-left: 240px;
+}
+
+.pr-btn{
+    background-color: #96C632;
+    padding: 5px 90px;
+    width: 700px;
+    height: 74px;
+    color: white;
+    transition: 0.5s;
+}
+.pr-btn:hover{
+    color: black;
+    background-color: #739628;
+}
+.pr-button i{
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    color: white;
+    transition: 0.5s
+}
+
+.pr-button i:hover{
+    color: red;
+}

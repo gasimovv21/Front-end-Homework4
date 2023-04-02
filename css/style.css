@@ -1,0 +1,418 @@
+/* Header */
+header{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+header a{
+    color: #FF7F00;
+}
+#header-top{
+    padding: 20px 0px 40px;
+}
+
+.h-top-left{
+    float: left;
+}
+
+.search-container {
+    position: relative;
+}
+.search-box{
+    font-size: 20px;
+    width: 1000px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: "Alkatra";
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    color: #FF7F00;
+    cursor: pointer;
+}
+
+.h-top-right{
+    float: right;
+}
+
+.h-top-right a{
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.h-top-right a:hover{
+    color: white;
+}
+
+.h-bottom-left{
+    float: left;
+}
+.h-bottom-right{
+    padding-top: 20px;
+    float: right;
+}
+
+.h-bottom-left a{
+    color: #FF7F00;
+    font-size: 40px;
+    margin-bottom: 200px;
+    transition: 0.9s;
+}
+
+.h-bottom-left a:hover{
+    color: white;
+}
+
+.cart-shopping{
+    margin-left: 10px;
+    float: right;
+}
+
+.cart-shopping .cart{
+    color: white;
+    transition: 0.2s;
+}
+.cart-shopping .cart:hover{
+    color:#0397DD;
+}
+
+.h-bottom-right .pages{
+    background-color: #FF7F00;
+    padding: 5px 80px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 3px;
+    transition: 0.9s;
+}
+
+
+.h-bottom-right .pages:hover{
+    color: black;
+}
+
+/* Main */
+
+/* Carousel */
+#Carousel{
+    margin: 50px 0px;
+    width: 100%;
+    position: relative;
+}
+#left-arrow{
+    font-size: 30px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    background-color: white;
+    border-radius: 50%;
+    transition: 1s;
+}
+#right-arrow{
+    font-size: 30px;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    background-color: white;
+    border-radius: 50%;
+    transition: 1s;
+}
+#right-arrow:hover{
+    background-color: #FF7F00;
+    transform: translateX(10px);
+    cursor: pointer;
+}
+#left-arrow:hover{
+    background-color: #FF7F00;
+    transform: translateX(-10px);
+    cursor: pointer;
+
+}
+#Carousel img{
+    width: 100%;
+}
+
+/* Products*/
+.top-text{
+    border-radius: 9px 9px 0px 0px;
+    overflow: hidden;
+    padding: 10px 0px;
+    background-color: black;
+}
+.tt-left{
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+.tt-right{
+    margin-right: 20px;
+    float: right;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+    width: 200px;
+}
+
+select:focus {
+    color: black;
+    background-color: #FF7F00;
+}
+
+.all-product{
+    overflow: hidden;
+    background-color: #FF7F00;
+
+}
+.product{
+    background-color: white;
+    margin: 15px 10px 30px 30px;
+    float: left;
+    width: 22%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product img{
+    width: 100%;
+    border-radius: 9px 9px 0px 0px;
+    margin-bottom: -10px;
+}
+
+.product-info{
+    background-color: black;
+    overflow: hidden;
+}
+
+.pi-text{
+    margin-bottom: 10px;
+}
+
+.pi-text p{
+    color: gray;
+}
+
+.pi-text h3{
+    color: white;
+    margin-left: 50px;
+}
+
+.pi-buttons a{
+    float: left;
+}
+.pi-buttons i{
+    float: right;
+    padding: 10px;
+    color: white;
+    transition: 0.5s
+}
+
+.pi-buttons i:hover{
+    color: red;
+}
+
+/* Back-image effect */
+
+#back-image{
+    margin: 100px 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://res.cloudinary.com/dte7upwcr/image/upload/blog/acsais/fon_acsais.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#back-image h1{
+    text-align: center;
+    color: #0397DD;
+    padding-top: 100px;
+    font-size: 150px;
+}
+
+/* Popular products */
+
+.popular-product{
+    background-color: white;
+    margin: 15px 10px 30px 30px;
+    float: left;
+    width: 30%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popular-product img{
+    width: 100%;
+    border-radius: 9px 9px 0px 0px;
+    margin-bottom: -10px;
+}
+
+.popular-product .pi-text{
+    margin-bottom: 10px;
+}
+
+.popular-product .pi-text p{
+    color: gray;
+}
+
+.popular-product .pi-text h3{
+    color: white;
+    margin-left: 100px;
+}
+
+.popular-product .pi-buttons a{
+    float: left;
+}
+.popular-product .pi-buttons i{
+    float: right;
+    padding: 10px;
+    color: white;
+    transition: 0.5s
+}
+
+.popular-product .pi-buttons i:hover{
+    color: red;
+}
+
+
+.popular-product .default-btn{
+    background-color: #96C632;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px 150px;
+    color: white;
+    transition: 0.5s;
+}
+.popular-product .default-btn:hover{
+    color: #96C632;
+    background-color: white;
+}
+
+
+/* TEAM */
+
+.team{
+    height: 700px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.text-center{
+    padding-top: 40px;
+}
+
+.team .headerp{
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.all-img-team-box{
+    margin-top: 100px;
+}
+
+.box-team-img{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.box-team-img img{
+    width: 50%;
+    border-radius: 120px;
+    border: 8px solid #FF7F00;
+}
+
+.box-team-img h2{
+    padding-top: 10px;
+}
+
+.box-team-img p{
+    padding-top: 10px;
+    font-weight: 400;
+    color:#757589;
+}
+
+.text-down{
+    font-size: large;
+    margin-top: 500px;
+    color: #757589;
+}
+
+/* Footer */
+.footer-basic {
+    padding:40px 0;
+    background-color:black;
+}
+
+.subscribe-container {
+    position: relative;
+}
+
+.subscribe-box{
+    margin-left: 530px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    width: 500px;
+    height: 50px;
+    font-size: 16px
+}
+
+.subscribe-button {
+    position: absolute;
+    margin-right: 480px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    color: #FF7F00;
+    cursor: pointer;
+}
+
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basic li {
+    padding:0 10px;
+}
+
+.footer-basic ul a {
+    color:#FF7F00;
+    text-decoration:none;
+    opacity:0.8;
+    transition: 0.5s;
+}
+
+.footer-basic ul a:hover {
+    color:white;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}

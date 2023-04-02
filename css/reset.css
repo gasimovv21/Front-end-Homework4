@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+.default-btn{
+    background-color: #96C632;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px 90px;
+    color: white;
+    transition: 0.5s;
+}
+.default-btn:hover{
+    color: #96C632;
+    background-color: white;
+}
+
+body{
+    background-color:#DFE2E4;
+    font-family: 'Alkatra';
+}
