@@ -75,6 +75,17 @@ header a{
 .cart-shopping{
     margin-left: 10px;
     float: right;
+    position: relative;
+}
+
+.cart-count{
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    padding: 0px 8px;
 }
 
 .cart-shopping .cart{
